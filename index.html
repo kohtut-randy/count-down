@@ -13,29 +13,28 @@
     </script>
     
   </head>
-  
-  <body class=" flex flex-col items-center justify center  bg-[url('/img/digital.jpg')] bg-center bg-cover">
-     <div class=" container w-2/3 h-2/4 mx-auto mt-12 lg:mt-32 flex flex-col items-center justify-center bg-none lg:bg-[url('/img/digital.jpg')] lg:bg-center lg:bg-cover lg:shadow-lg lg:shadow-cyan-500/50">
-        <h1 class="text-2xl text-white mt-4">Time Counter</h1>
-        <div class="flex lg:flex-row items-center justify-center gap-x-2  mt-16">
+  <body class=" flex flex-col items-center justify-center">
+     <div class="container w-2/3 h-2/4 mx-auto mt-12 lg:mt-32 flex flex-col items-center justify-center">
+        <h1 class="text-4xl text-red-600 mt-4">Countdown</h1>
+        <div class="flex lg:flex-row items-center justify-center gap-x-4 lg:gap-x-12 mt-16">
           <div class="flex flex-col items-center justify-center gap-y-4">
-            <h2 class="text-8xl text-white" id="countMin"> 00 </h2>
-            <span class="text-2xl text-white">minutes</span>
+            <h2 class="text-8xl text-black bg-red-600 px-2 py-2" id="countMin"> 00 </h2>
+            <span class="text-lg text-red-600">minutes</span>
           </div>
-          <span class="text-6xl text-white">
+          <span class="text-6xl text-red-600 mb-12">
             :
           </span>
           <div class="flex flex-col items-center justify-center gap-y-4">
-            <h2 class="text-8xl text-white" id="countSec"> 00 </h2>
-            <span class="text-2xl text-white">seconds</span>
+            <h2 class="text-8xl text-black bg-red-600 px-2 py-2" id="countSec"> 00 </h2>
+            <span class="text-lg text-red-600">seconds</span>
           </div>
         </div>
      </div>
      <div  class="flex flex-row items-center justify-center gap-x-12 mt-20" >
-      <button type="button" onclick="countingStart()" class="flex items-center justify center  bg-cyan-500 shadow-sm shadow-cyan-500 px-2 py-2 rounded-md text-white">
+      <button type="button" onclick="countingStart()" class="flex items-center justify center  bg-red-600 shadow-sm shadow-red-500 px-2 py-2 rounded-md text-black">
         start
       </button>
-      <button type="button" onclick="countingStop()" class="flex items-center justify center  bg-cyan-500 shadow-sm shadow-cyan-500  px-3 py-2 rounded-md text-white">
+      <button type="button" onclick="countingStop()" class="flex items-center justify center  bg-red-600 shadow-sm shadow-red-500  px-3 py-2 rounded-md text-black">
         stop
       </button>
     </div>
