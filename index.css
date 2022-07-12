@@ -9,7 +9,8 @@ html {
 body{
   width: 100vw;
   height: 100vh;
-  background-color: black;
+  background-image: url(./img/3d-dark-grunge-display-background-with-smoky-atmosphere.jpg);
+  background-size: cover;
   background-position:center;
   background-repeat: no-repeat;
 }
